@@ -140,7 +140,7 @@ def main():
     architect = Architect(model, criterion, arch_optimizer, args)
 
     logging.info('loading nas_bench_api...')
-    api = API('../../data/NAS-Bench-102-v1_0-e61699.pth', verbose=False)
+    api = API('NAS-Bench-102-v1_0-e61699.pth', verbose=False)
     accs, rks = get_nas_bench(api, args.set)
     logging.info('nas_bench_api loaded')
 
