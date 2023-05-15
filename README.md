@@ -1,4 +1,4 @@
-# OSen-NAS
+# OStr-NAS
 
 ## Preparation
 Follow https://github.com/D-X-Y/NAS-Bench-201 to install nasbench2:
